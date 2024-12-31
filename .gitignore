@@ -43,3 +43,14 @@ Temporary Items
 .apdisk
 docker-compose.yml
 .jenkins-external
+
+# Avoiding shared details
+.env
+.env.*
+
+# Ignore any folders storing secrets
+secrets/
+docker-secrets/
+
+# Ignore local override compose file
+docker-compose.override.yml
